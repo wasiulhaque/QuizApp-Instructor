@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Quiz App- Instructor</string>
+    <string name="welcome_instructor">Welcome, Instructor</string>
+    <string name="proceed">Proceed</string>
 </resources>
