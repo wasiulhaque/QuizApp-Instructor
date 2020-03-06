@@ -10,7 +10,7 @@
         android:id="@+id/textView3"
         android:layout_width="281dp"
         android:layout_height="46dp"
-        android:text="Received Feedbacks"
+        android:text="@string/received_feedbacks"
         android:textColor="#43A037"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
