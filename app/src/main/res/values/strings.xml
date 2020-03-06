@@ -19,4 +19,14 @@
     <string name="see_feedback">See Feedbacks</string>
     <string name="log_out">Log Out</string>
     <string name="choose_an_option">Choose an option</string>
+    <string name="reset">Reset</string>
+    <string name="add_option">Add Option</string>
+    <string name="add_question_here">Add Question here</string>
+    <string name="upload_your_own_study_material">Upload Your Own Study Material</string>
+    <string name="go_back">Go Back</string>
+    <string name="upload">Upload</string>
+    <string name="submit">Submit</string>
+    <string name="question_1">Question 1</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="study_material_1">Study Material 1</string>
 </resources>

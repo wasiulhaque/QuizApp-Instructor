@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudyMaterials">
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="382dp"
+        android:layout_height="52dp"
+        android:background="#FB2626"
+        android:fontFamily="@font/archivo_narrow"
+        android:text="Go back"
+        android:textColor="#F7F3F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button21"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="310dp"
+        android:layout_height="69dp"
+        android:background="#A1A4BB"
+        android:fontFamily="@font/archivo_narrow"
+        android:text="Study Material 4"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button19"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="310dp"
+        android:layout_height="69dp"
+        android:background="#D6D09A"
+        android:fontFamily="@font/archivo_narrow"
+        android:text="Study Material 3"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button18"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="310dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/archivo_narrow"
+        android:text="Study Material Section"
+        android:textColor="#2699FB"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.702"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="281dp"
+        android:layout_height="33dp"
+        android:fontFamily="@font/archivo_narrow"
+        android:text="Subject: Subject Name"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="310dp"
+        android:layout_height="69dp"
+        android:background="#B3BBC4"
+        android:fontFamily="@font/archivo_narrow"
+        android:text="@string/study_material_1"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="310dp"
+        android:layout_height="69dp"
+        android:background="#7E8286"
+        android:fontFamily="@font/archivo_narrow"
+        android:text="Study Material 2"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button16"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="383dp"
+        android:layout_height="61dp"
+        android:background="#225523"
+        android:fontFamily="@font/advent_pro_light"
+        android:text="Share Your Own Material"
+        android:textColor="#F7F3F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button20"
+        app:layout_constraintVertical_bias="0.284" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
