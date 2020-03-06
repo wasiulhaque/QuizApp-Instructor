@@ -13,4 +13,10 @@
     <string name="login_failed">"Login failed"</string>
     <string name="username">Username</string>
     <string name="log_in">Log In</string>
+    <string name="modify_previous_quiz">Modify Previous Quiz</string>
+    <string name="create_new_quiz">Create New Quiz</string>
+    <string name="go_to_study_material_section">Go to Study Material Section</string>
+    <string name="see_feedback">See Feedbacks</string>
+    <string name="log_out">Log Out</string>
+    <string name="choose_an_option">Choose an option</string>
 </resources>
