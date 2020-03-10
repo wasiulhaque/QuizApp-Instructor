@@ -20,7 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.586"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button21"
+        app:layout_constraintTop_toBottomOf="@+id/AddMaterialbtn"
         app:layout_constraintVertical_bias="0.157" />
 
     <Button
@@ -124,12 +124,12 @@
         app:layout_constraintVertical_bias="0.041" />
 
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/AddMaterialbtn"
         android:layout_width="383dp"
         android:layout_height="61dp"
         android:background="#225523"
-        android:fontFamily="@font/advent_pro_light"
-        android:text="Share Your Own Material"
+        android:fontFamily="@font/archivo_narrow"
+        android:text="@string/add_material"
         android:textColor="#F7F3F3"
         android:textSize="20sp"
         android:textStyle="bold"
