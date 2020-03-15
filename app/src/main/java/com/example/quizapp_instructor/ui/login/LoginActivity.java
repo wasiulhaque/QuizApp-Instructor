@@ -27,6 +27,7 @@ import com.example.quizapp_instructor.R;
 import com.example.quizapp_instructor.SelectorActivity;
 import com.example.quizapp_instructor.ui.login.LoginViewModel;
 import com.example.quizapp_instructor.ui.login.LoginViewModelFactory;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -36,6 +37,7 @@ public class LoginActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        FirebaseAuth mAuth = FirebaseAuth.getInstance();
         loginViewModel = ViewModelProviders.of(this, new LoginViewModelFactory())
                 .get(LoginViewModel.class);
 
