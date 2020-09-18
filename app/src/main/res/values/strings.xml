@@ -1,13 +1,11 @@
 <resources>
     <string name="app_name">Quiz App- Instructor</string>
     <string name="welcome_instructor">Welcome, Instructor</string>
-    <string name="proceed">Proceed</string>
     <string name="title_activity_login">Sign in</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
@@ -34,6 +32,8 @@
     <string name="add_material">Add Material</string>
     <string name="select_class">Select Class</string>
     <string name="proceed">Proceed</string>
+    <string name="check_previous_quiz_marks">Check Previous Quiz Marks</string>
+    <string name="select_subject">Select Subject</string>
 
     <string-array name="Select_Class">
         <item>Select Class</item>
