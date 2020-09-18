@@ -34,6 +34,7 @@
     <string name="proceed">Proceed</string>
     <string name="check_previous_quiz_marks">Check Previous Quiz Marks</string>
     <string name="select_subject">Select Subject</string>
+    <string name="select_chapter">Select Chapter</string>
 
     <string-array name="Select_Class">
         <item>Select Class</item>
