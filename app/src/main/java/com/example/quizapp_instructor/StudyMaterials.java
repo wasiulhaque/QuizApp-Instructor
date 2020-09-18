@@ -19,8 +19,8 @@ public class StudyMaterials extends AppCompatActivity {
         AddMaterialbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(StudyMaterials.this, UploadStudyMaterials.class);
-                startActivity(intent);
+                /*Intent intent = new Intent(StudyMaterials.this, UploadStudyMaterials.class);
+                startActivity(intent);*/
             }
         });
     }

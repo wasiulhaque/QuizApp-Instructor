@@ -33,7 +33,7 @@ public class SelectorActivity extends AppCompatActivity {
         modify.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent2= new Intent(SelectorActivity.this, QuizWindowModify.class);
+                Intent intent2= new Intent(SelectorActivity.this, SelectClassModify.class);
                 startActivity(intent2);
             }
         });

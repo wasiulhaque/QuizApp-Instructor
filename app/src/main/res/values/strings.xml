@@ -38,6 +38,11 @@
     <string name="type_the_qyestion_here">Type the Qyestion here</string>
     <string name="type_the_question">Type the question</string>
     <string name="insert_your_question">Insert your question</string>
+    <string name="option_1">Option 1</string>
+    <string name="done">Done</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_4">Option 4</string>
 
     <string-array name="Select_Class">
         <item>Select Class</item>
