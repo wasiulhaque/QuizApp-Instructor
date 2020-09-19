@@ -8,8 +8,10 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.quizapp_instructor.ui.login.LoginActivity;
+import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
+
 Button proceed;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,7 @@ Button proceed;
             public void onClick(View view) {
                 Intent intent= new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
+
             }
         });
     }
